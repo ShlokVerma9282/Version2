@@ -1,0 +1,43 @@
+.product-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .product-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 200px; /* Adjust as needed */
+    text-align: center;
+    position: relative;
+  }
+  
+  .product-card img {
+    height: 150px; /* Set the desired height */
+    width: 200px;  /* Set the desired width */
+    object-fit: cover;
+  }
+  
+  .product-card h3 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+    display: inline-block;
+    line-height: 1.2em;
+    max-height: 2.4em;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  

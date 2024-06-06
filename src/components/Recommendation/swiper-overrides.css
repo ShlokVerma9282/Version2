@@ -1,0 +1,9 @@
+/* swiper-overrides.css */
+.swiper-pagination-bullet {
+    background: orange !important;
+  }
+  
+  .swiper-pagination-bullet-active {
+    background: darkorange !important;
+  }
+  

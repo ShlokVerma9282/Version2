@@ -1,0 +1,61 @@
+.container {
+  width: 500px;
+  margin: 100px auto;
+  padding: px 20px;
+
+}
+
+.container h3 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #909090;
+  font-size: 1.3em;
+  font-weight: 500;
+  word-spacing: 0.2em;
+}
+
+.form-group {
+  border: 1px solid #999;
+  padding: 8px 10px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border-radius: 50px;
+  margin-bottom: 10px;
+}
+
+.form-control {
+  outline: 0;
+  border: 0;
+  width: 100%;
+  padding: 6px 15px;
+  font-size: 1.2em;
+}
+
+.icon {
+  width: 20px;
+}
+
+.list-group {
+  width: 430px;
+  background-color: #FFF;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  ;
+  margin: 4px auto;
+  text-decoration: none;
+  list-style: none;
+  padding: 10px 10px;
+  color: #909090;
+}
+
+.list-group-item {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.search-icon {
+  width: 15px;
+}

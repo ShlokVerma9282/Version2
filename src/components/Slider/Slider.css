@@ -1,0 +1,58 @@
+/* Slider.css */
+.slider-container {
+    width: 100%;
+    padding: 20px 0;
+    position: relative;
+}
+
+.swiper-pagination {
+    position: relative;
+    margin-top: 20px;
+}
+
+.slider-item {
+    width: 100%; /* Increase the width to 60% */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border: 2px solid orange;
+    height: 100%; /* Ensures all cards have the same height */
+}
+
+.slider-image img {
+    width: 100px; /* Standard width */
+    height: 150px; /* Standard height, adjust as needed */
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.slider-content {
+    text-align: center;
+    margin-top: 20px;
+    flex-grow: 1; /* Ensures content grows to fill available space */
+}
+
+.slider-title {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.slider-price {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.slider-stars {
+    margin-bottom: 10px;
+}
+
+.slider-link {
+    text-decoration: none;
+    color: orange;
+    font-weight: bold;
+}
